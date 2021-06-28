@@ -129,9 +129,11 @@ h4 {
 
 /* Footer */
 footer {
-    height: 80px;
-    background-color: #8403fd;
-    margin-top: 5px;
+    margin-top: 15pxpx;
+    text-align: center;
+}
+footer span {
+    color: red;
 }
 
 
