@@ -15,8 +15,16 @@ body {
 	clear: both;
 }
 .conteiner {
-    width: 80%;
+    max-width: 1180px;
     margin: 25px auto;
+}
+.overlay {
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 /* Header  */
@@ -50,11 +58,25 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    border-radius: 10px;
+	overflow: hidden;
 }
+.hero-description {
+    width: 49%;
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 5%;
+}
+h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
 .leadership {
     background-color: #0386fc;
 }
-
 .top-2nd-section {
     height: 10%;
     background-color: #abcfe7;
