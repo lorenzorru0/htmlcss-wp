@@ -103,22 +103,14 @@ h1 {
 .leadership-img {
     width: 100%;
     height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     position: relative;
     border-radius: 10px;
 	overflow: hidden;
     margin-bottom: 25px;
 }
-.left-img {
-    background-image: url("../img/img-1.jpg");
-}
-.central-img {
-    background-image: url("../img/banner-2.jpg");
-}
-.right-img {
-    background-image: url("../img/img-3.jpg");
+.leadership-img img {
+    width: 100%;
+    object-fit: cover;
 }
 h4 {
     position: relative;
@@ -129,7 +121,7 @@ h4 {
 
 /* Footer */
 footer {
-    margin-top: 15pxpx;
+    margin-top: 15px;
     text-align: center;
 }
 footer span {
