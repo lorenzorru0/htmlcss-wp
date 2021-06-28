@@ -44,7 +44,7 @@ a {
     color: #858585;
     text-decoration: none;
 }
-.bottom-2nd-section span {
+.leadership span {
     color: #a8a8a8;
 }
 
@@ -77,14 +77,8 @@ h1 {
     font-weight: 400;
 }
 
-.leadership {
-    
-}
 .top-2nd-section h1{
     font-weight: 600;
-}
-.top-2nd-section span {
-    color: #a8a8a8;
 }
 
 .bottom-2nd-section {
