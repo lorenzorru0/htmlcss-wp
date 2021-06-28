@@ -39,12 +39,17 @@ a {
 
 /* Main */
 section {
-    height: 700px;
+    height: 500px;
     margin-top: 25px;
 }
 .hero {
-    background-color: #e1d67a;
+    width: 100%;
+    height: 100%;
     margin-top: 50px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .leadership {
     background-color: #0386fc;
